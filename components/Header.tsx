@@ -5,6 +5,10 @@ import Logo from '@/components/icons/Logo';
 import SearchIcon from '@/components/icons/SearchIcon';
 import AppGridIcon from '@/components/icons/AppGridIcon';
 
+interface HeaderProps {
+	toggleSidebar: () => void;
+}
+
 export const Header = () => (
 	<header className="flex justify-between max-w-[1344px] mx-auto w-full items-center px-0 h-[64px] bg-[#FCFDFD] ">
 		<div className="flex items-center space-x-4">
